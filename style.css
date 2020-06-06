@@ -1,0 +1,85 @@
+html {
+    position: relative;
+}
+
+.jumbotron {
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h1,
+.jumbotron h4 {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 2);
+}
+
+.jumbotron img {
+    width: 200px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+hr {
+    width: 30%;
+}
+
+.p1 {
+    margin-top: -20px;
+}
+
+.parallax-container {
+    height: 15%;
+}
+
+.g9 img {
+    margin-top: 22px;
+    max-width: 200px;
+}
+
+.grade9 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.youtube {
+    margin-top: 10px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top: 12px;
+}
+
+.muka,
+.nama,
+.kerja {
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: 1s;
+}
+
+.aboutme,
+.p1 {
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: 3s;
+}
+
+.mukamuncul,
+.namamuncul,
+.kerjamuncul,
+.aboutmemuncul,
+.p1muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
